@@ -1,11 +1,8 @@
-#Visual Studio build files
-./.vs/
-
 #Built files
 *.exe
 
 #obj folder
-./obj/
+obj/*
 *.cache
 *.resources
 *.pdb
@@ -13,5 +10,5 @@
 *.txt
 
 #bin folder
-./bin/
+bin/*
 Fold.exe.config
