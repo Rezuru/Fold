@@ -54,5 +54,10 @@ namespace Fold
                 Application.Exit();
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Text = "Type the folder name. " + (Environment.GetCommandLineArgs().Length - 1).ToString() + " files selected.";
+        }
     }
 }

@@ -1,6 +1,7 @@
 #Built files
 *.exe
-
+#Visual studio's garbage folder
+/.vs/
 #obj folder
 obj/*
 *.cache
